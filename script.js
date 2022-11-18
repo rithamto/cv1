@@ -45,7 +45,7 @@ function showSlides(n) {
   let dots = document.getElementsByClassName("dot");
   if (n > 5) {slideIndex = 1}
   if (n < 1) {slideIndex = 5}
-  for (i = 0; i < 3; i++) {
+  for (i = 0; i < 5; i++) {
     slides[i].style.display = "none";
   }
   slides[slideIndex-1].style.display = "block";
