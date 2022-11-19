@@ -280,17 +280,27 @@ body {
   margin: auto;
 }
 
+.slideshow-containers {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
 
+.mySlidess {
+  display: none;
+}
+
 /* Next & previous buttons */
-.prev, .next {
+.prev, .next{
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
+  width: 20px;
   margin-top: -22px;
   padding: 16px;
   color: rgb(12, 129, 239);
@@ -309,8 +319,9 @@ body {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(192, 225, 238, 0.8);
 }
+
 
 /* Caption text */
 .text {
@@ -333,6 +344,10 @@ body {
 }
 
 .mySlides{
+  padding-left: 120px;
+}
+
+.mySlidess{
   padding-left: 120px;
 }
 
