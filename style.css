@@ -358,6 +358,6 @@ body {
 }
 
 @keyframes fade {
-  from {opacity: .5}
+  from {opacity: .10}
   to {opacity: 1}
 }
