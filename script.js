@@ -110,3 +110,14 @@ function showSlides1(n) {
   }
   slides[slideIndex1-1].style.display = "block";
 }
+
+function showSlides2(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides2");
+  if (n > 4) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = 4}
+  for (i = 0; i < 4; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex2-1].style.display = "block";
+}
