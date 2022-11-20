@@ -351,6 +351,10 @@ body {
   padding-left: 120px;
 }
 
+.mySlides1{
+  padding-left: 10px;
+}
+
 /* Fading animation */
 .fade {
   animation-name: fade;

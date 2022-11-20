@@ -32,6 +32,12 @@ showSlides(slideIndex);
 let slideIndexs = 1;
 showSlidess(slideIndexs);
 
+let slideIndex1 = 1;
+showSlides1(slideIndex1);
+
+let slideIndex2 = 1;
+showSlides2(slideIndex2);
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -50,6 +56,26 @@ function plusSlidess(n) {
 // Thumbnail image controls
 function currentSlides(n) {
   showSlidess(slideIndexs = n);
+}
+
+// Next/previous controls
+function plusSlides1(n) {
+  showSlides1(slideIndex1 += n);
+}
+
+// Thumbnail image controls
+function currentSlide1(n) {
+  showSlides1(slideIndex1 = n);
+}
+
+// Next/previous controls
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+// Thumbnail image controls
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
 }
 
 function showSlides(n) {
@@ -72,4 +98,15 @@ function showSlidess(n) {
     slides[i].style.display = "none";
   }
   slides[slideIndexs-1].style.display = "block";
+}
+
+function showSlides1(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides1");
+  if (n > 4) {slideIndex1 = 1}
+  if (n < 1) {slideIndex1 = 4}
+  for (i = 0; i < 4; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex1-1].style.display = "block";
 }
