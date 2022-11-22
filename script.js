@@ -38,6 +38,9 @@ showSlides1(slideIndex1);
 let slideIndex2 = 1;
 showSlides2(slideIndex2);
 
+let slideIndex3 = 1;
+showSlides3(slideIndex3);
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -76,6 +79,16 @@ function plusSlides2(n) {
 // Thumbnail image controls
 function currentSlide2(n) {
   showSlides2(slideIndex2 = n);
+}
+
+// Next/previous controls
+function plusSlides3(n) {
+  showSlides3(slideIndex3 += n);
+}
+
+// Thumbnail image controls
+function currentSlide3(n) {
+  showSlides3(slideIndex3 = n);
 }
 
 function showSlides(n) {
@@ -120,4 +133,14 @@ function showSlides2(n) {
     slides[i].style.display = "none";
   }
   slides[slideIndex2-1].style.display = "block";
+}
+function showSlides3(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides3");
+  if (n > 3) {slideIndex3 = 1}
+  if (n < 1) {slideIndex3 = 3}
+  for (i = 0; i < 3; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex3-1].style.display = "block";
 }
