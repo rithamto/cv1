@@ -2,7 +2,7 @@ const en_div = document.querySelector('#en');
 const vn_div = document.querySelector('#vn');
 const vn_flag = document.querySelector('#en .resume .lang');
 const en_flag = document.querySelector('#vn .resume .lang');
-let lang = 'vn';
+let lang = 'en';
 
 showCV = () => {
     if (lang == 'en'){
@@ -143,4 +143,100 @@ function showSlides3(n) {
     slides[i].style.display = "none";
   }
   slides[slideIndex3-1].style.display = "block";
+}
+
+//page en
+
+let slideIndex4 = 1;
+showSlides4(slideIndex4);
+
+let slideIndex5 = 1;
+showSlides5(slideIndex5);
+
+let slideIndex6 = 1;
+showSlides6(slideIndex6);
+
+let slideIndex7 = 1;
+showSlides7(slideIndex7);
+
+let slideIndex8 = 1;
+showSlides8(slideIndex8);
+
+// Next/previous controls
+function plusSlides4(n) {
+  showSlides4(slideIndex4 += n);
+}
+
+// Next/previous controls
+function plusSlides5(n) {
+  showSlides5(slideIndex5 += n);
+}
+
+// Next/previous controls
+function plusSlides6(n) {
+  showSlides6(slideIndex6 += n);
+}
+
+// Next/previous controls
+function plusSlides7(n) {
+  showSlides7(slideIndex7 += n);
+}
+
+// Next/previous controls
+function plusSlides8(n) {
+  showSlides8(slideIndex8 += n);
+}
+
+function showSlides4(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides4");
+  if (n > 5) {slideIndex4 = 1}
+  if (n < 1) {slideIndex4 = 5}
+  for (i = 0; i < 5; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex4-1].style.display = "block";
+}
+
+function showSlides5(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides5");
+  if (n > 4) {slideIndex5 = 1}
+  if (n < 1) {slideIndex5 = 4}
+  for (i = 0; i < 4; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex5-1].style.display = "block";
+}
+
+function showSlides6(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides6");
+  if (n > 4) {slideIndex6 = 1}
+  if (n < 1) {slideIndex6 = 4}
+  for (i = 0; i < 4; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex6-1].style.display = "block";
+}
+
+function showSlides7(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides7");
+  if (n > 4) {slideIndex7 = 1}
+  if (n < 1) {slideIndex7 = 4}
+  for (i = 0; i < 4; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex7-1].style.display = "block";
+}
+function showSlides8(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides8");
+  if (n > 3) {slideIndex8 = 1}
+  if (n < 1) {slideIndex8 = 3}
+  for (i = 0; i < 3; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex8-1].style.display = "block";
 }
