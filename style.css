@@ -279,7 +279,11 @@ body {
   position: relative;
   margin: auto;
 }
-
+.slideshow-containers {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -366,7 +370,7 @@ body {
 }
 
 .mySlides7{
-  padding-left: 60px;
+  padding-left: 10px;
 }
 
 .mySlides8{
