@@ -2,7 +2,7 @@ const en_div = document.querySelector('#en');
 const vn_div = document.querySelector('#vn');
 const vn_flag = document.querySelector('#en .resume .lang');
 const en_flag = document.querySelector('#vn .resume .lang');
-let lang = 'vn';
+let lang = 'en';
 
 showCV = () => {
     if (lang == 'en'){
