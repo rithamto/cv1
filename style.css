@@ -60,8 +60,12 @@ body {
   color: #fff;
 }
 
-.resume .resume_left .regular {
+.resume .resume_left {
   color: #3ab6f2;
+}
+
+.regular{
+  color: #e9ebec;
 }
 
 .resume .resume_item {
