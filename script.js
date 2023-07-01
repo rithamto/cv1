@@ -116,9 +116,9 @@ function showSlidess(n) {
 function showSlides1(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides1");
-  if (n > 4) {slideIndex1 = 1}
+  if (n > 5) {slideIndex1 = 1}
   if (n < 1) {slideIndex1 = 4}
-  for (i = 0; i < 4; i++) {
+  for (i = 0; i < 5; i++) {
     slides[i].style.display = "none";
   }
   slides[slideIndex1-1].style.display = "block";
@@ -212,9 +212,9 @@ function showSlides5(n) {
 function showSlides6(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides6");
-  if (n > 4) {slideIndex6 = 1}
-  if (n < 1) {slideIndex6 = 4}
-  for (i = 0; i < 4; i++) {
+  if (n > 5) {slideIndex6 = 1}
+  if (n < 1) {slideIndex6 = 5}
+  for (i = 0; i < 5; i++) {
     slides[i].style.display = "none";
   }
   slides[slideIndex6-1].style.display = "block";

@@ -355,7 +355,11 @@ body {
 }
 
 .mySlides1{
-  padding-left: 10px;
+  padding-left: 120px;
+}
+
+.mySlides2{
+  padding-left: 120px;
 }
 
 .mySlides3{
@@ -371,11 +375,11 @@ body {
 }
 
 .mySlides6{
-  padding-left: 10px;
+  padding-left: 120px;
 }
 
 .mySlides7{
-  padding-left: 10px;
+  padding-left: 120px;
 }
 
 .mySlides8{
