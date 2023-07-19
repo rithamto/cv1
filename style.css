@@ -10,9 +10,9 @@
 
 body {
   background: #585c68;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
-  color: #555555;
+  color: #1e1a1a;
 }
 
 .bold {
@@ -24,6 +24,11 @@ body {
 .semi-bold {
   font-weight: 700;
   font-size: 20px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .resume {
@@ -66,6 +71,8 @@ body {
 
 .regular {
   color: #e9ebec;
+  font-weight: 600;
+  font-size: 20;
 }
 
 .resume .resume_item {
@@ -121,6 +128,8 @@ body {
 
 .resume .resume_left .resume_skills ul li .skill_name {
   width: 25%;
+  font-weight: 500;
+  font-size: 18px;
   
 }
 
